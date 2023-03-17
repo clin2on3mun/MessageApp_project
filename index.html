@@ -8,7 +8,20 @@
         <script src="scripts.js" defer> </script>
     </head>
     <body>
-        <div>
+        <header>
+            <nav><h1 class="app_title">Message App</h1></nav> 
+            <nav>
+                <a>inbox</a>
+                <a>sent</a>
+            </nav>
+            <nav>
+                <span class="bar"></span>
+                <span class="bar bar1"></span>
+                <span class="bar bar1"></span>
+
+                </nav>
+            </header>
+        <div class ="form">
           <ul>  
             <li><label for="name">Name:</label>
             <input type="text" id="name" name="user_name"/></li>
@@ -19,6 +32,6 @@
             <li><button class="btn btn--success">Send your message</button></li>
         </ul>
     </div>
-        
+        <div class="sent">
     </body>
 </html>
